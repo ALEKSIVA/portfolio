@@ -4,7 +4,11 @@
     --darkk-color:#f0e3c4;
     --lightt-color:#f1f0d1;
 }
+html{
+    font-family: 'IBM Plex Serif', serif;
+}
 body{
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,13 +21,45 @@ body{
     width: 600px;
     height:450px;
     margin:0 auto;
-    border: 2px solid#f0e3c4;
     position:relative;
+    text-align: center;
 }
-.cloud1{
+.cloud{
     position: absolute;
 }
 .mountain{
     position:absolute;
+    left:0;
     bottom: 0;
+}
+.cloud1{
+    left:10%;
+    top:20%;
+}
+.cloud2{
+    right:15%;
+    top:7%;
+}
+h1{
+    font-family: 'Caveat', cursive;  
+}
+.underline{
+    text-decoration: underline;
+}
+.middle-container{
+    width: 800px;
+    margin: 2rem auto;
+}
+
+.profile{
+    width:800px;
+    margin:2rem auto;
+    text-align: center;
+}
+.profile_image{
+    
+    width:100px;
+}
+h2{
+    font-family: 'Caveat', cursive; 
 }
