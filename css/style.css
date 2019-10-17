@@ -49,6 +49,7 @@ h1{
 .middle-container{
     width: 800px;
     margin: 2rem auto;
+    border:1px solid red;
 }
 
 .profile{
@@ -62,4 +63,21 @@ h1{
 }
 h2{
     font-family: 'Caveat', cursive; 
+}
+
+.skills img{
+    width: 100px;
+    
+}
+.img-skill1{
+    float: left;
+    margin-right:2rem;
+    margin-top:55px;
+    
+}
+.img-skill2{
+    float: right;
+    margin-left:2rem;
+    margin-top:50px;
+    
 }
